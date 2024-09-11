@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-11T22:20:19 GMT" name="login" finished-at="2024-09-11T22:20:30 GMT" duration-ms="11108">
+    <groups>
+      <group name="regression">
+        <method signature="ElioPaul.invalidPasswordLogin()[pri:0, instance:elio.project.TestNg.ElioPaul@34a3d150]" name="invalidPasswordLogin" class="elio.project.TestNg.ElioPaul"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-09-11T22:20:19 GMT" name="login" finished-at="2024-09-11T22:20:30 GMT" duration-ms="11108">
+      <class name="elio.project.TestNg.ElioPaul">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:elio.project.TestNg.ElioPaul@34a3d150]" started-at="2024-09-11T22:20:19 GMT" name="setUp" finished-at="2024-09-11T22:20:24 GMT" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordLogin()[pri:0, instance:elio.project.TestNg.ElioPaul@34a3d150]" started-at="2024-09-11T22:20:24 GMT" name="invalidPasswordLogin" finished-at="2024-09-11T22:20:30 GMT" duration-ms="5397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:elio.project.TestNg.ElioPaul@34a3d150]" started-at="2024-09-11T22:20:30 GMT" name="tearDown" finished-at="2024-09-11T22:20:30 GMT" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- elio.project.TestNg.ElioPaul -->
+    </test> <!-- login -->
+  </suite> <!-- login -->
+</testng-results>

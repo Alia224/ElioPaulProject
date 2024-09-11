@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="login">
+	<listeners>
+		<listener class-name="elio.project.utils.Listener"></listener>
+	</listeners>
+	<test thread-count="5" name="login">
+
+
+		<groups>
+			<run>
+				<include name="regression"></include>
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="elio.project.TestNg.ElioPaul" />
+		</classes>
+
+
+	</test> <!--
+	login -->
+</suite> <!--
+login -->
